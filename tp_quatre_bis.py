@@ -213,6 +213,6 @@ def third_exercice(liste):
         for element_deux in liste:
             for element_trois in liste:
                 if int(element) + int(element_deux) + int(element_trois) == 2020:
-                    return (int(element) * int(element_deux) * int(element_trois))
+                    return int(element) * int(element_deux) * int(element_trois)
 
 
